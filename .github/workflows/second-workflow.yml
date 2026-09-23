@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Bye second workflow
-        run: eco "Bye second workflow" 
+        run: echo "Bye second workflow" 
   
