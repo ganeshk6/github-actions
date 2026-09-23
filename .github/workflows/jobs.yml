@@ -1,9 +1,9 @@
 name: Jobs test
-on: push
-  # workflow_run:
-  #   workflows: [First Workflow]
-  #   types: 
-  #     - completed
+on:
+  workflow_run:
+    workflows: [First Workflow]
+    types: 
+      - completed
 
 jobs:
   validate-html:
