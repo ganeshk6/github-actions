@@ -3,7 +3,7 @@ on: push
 
 jobs:
   hello-workflow:
-    runs-on: ububuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Hello second workflow
         run: echo "Hello second workflow"
